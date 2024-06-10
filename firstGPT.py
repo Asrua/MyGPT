@@ -7,7 +7,7 @@ from apikey import apikey
 os.environ['OPENAI_API_KEY'] = apikey
 
 # app framework
-st.title('ASK QUESTIONS ABOUT ME')
+st.title('🦜🔗 My chatbot (Alpha Version)')
 prompt = st.text_input('Plug in your prompt here')
 
 # llms
